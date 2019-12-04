@@ -1,0 +1,30 @@
+{
+    "imageURL": "/img/tiles.png",
+
+    "frames": [
+        {
+            "name": "rotate-1",
+            "rect": [384, 16, 16, 16]
+        },
+        {
+            "name": "rotate-2",
+            "rect": [400, 16, 16, 16]
+        },
+        {
+            "name": "rotate-3",
+            "rect": [416, 16, 16, 16]
+        }
+    ],
+
+    "animations": [
+        {
+            "name": "rotate",
+            "frameLen": 0.15,
+            "frames": [
+                "rotate-1",
+                "rotate-2",
+                "rotate-3"
+            ]
+        }
+    ]
+}
